@@ -1,0 +1,20 @@
+{
+  "name": "pcdir",
+  "bin": {
+    "pcdir": "./index.js"
+  },
+  "version": "0.1.0",
+  "description": "print console.dir version of JSON.parse'd input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "phil olson",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "lodash": "^4.12.0",
+    "through2": "^2.0.1",
+    "word-wrap": "github:olsonpm/word-wrap#5d56ebce95623d844ed7c0329763de0b30475b22"
+  }
+}
